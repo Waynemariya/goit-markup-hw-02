@@ -42,7 +42,7 @@ font-style: normal;
 }
 
 .adress-link{
-    color:  #4344552;
+    color:   #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -53,7 +53,7 @@ font-style: normal;
     color: #404BBF;
 }
 
-.section1{
+.section-one{
     background-color:  #2E2F42;
 }
 
@@ -68,9 +68,7 @@ letter-spacing: 0.02em;
 }
 
 .button{
-    border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: #4D5AE5;
     color:  #FFF;
     font-size: 16px;
     font-weight: 500;
@@ -79,13 +77,11 @@ letter-spacing: 0.02em;
 }
 
 .button:hover,
-.button:focus{
-    border-radius: 4px;
+.button:focus{  
 background:  #404BBF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 cursor: pointer;
 }
-.hed2{
+.hed-two{
     color:  #2E2F42;
 text-align: center;
 font-size: 36px;
@@ -95,7 +91,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
-.hed3{
+.hed-three{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -109,7 +105,7 @@ text-transform: capitalize;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.section3{
+.section-three{
     background-color: #F4F4FD;
 
 }
@@ -135,4 +131,8 @@ text-transform: uppercase;
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+}
+
+.list-bgrnd{
+    background-color: #FFFFFF;
 }
